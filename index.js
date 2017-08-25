@@ -2,6 +2,10 @@
 
 const U = require('./uttilities');
 
-console.log('This is for presentation purposes only.');
+const log = (...params) => {
+	return console.log(...params);
+};
 
-console.log(`I'm going to start developing an application...`);
+log('This is for presentation purposes only.');
+
+log(`I'm going to start developing an application...`);
